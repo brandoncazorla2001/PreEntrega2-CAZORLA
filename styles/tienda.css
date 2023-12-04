@@ -1,0 +1,122 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;  
+    margin: 0;
+    font-family: sans-serif;
+
+}
+
+
+
+
+/**************** ACA VA LA PARTE DEL HEADER ****************/
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: gray;
+    padding: 10px 10px 10px 20px;  
+    
+}
+
+.imagen-logo{
+    height: 90px;
+    border-radius: 30px;        /*LOGO DE SWIPEPAWS*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.header-izquierdo{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+
+
+/**************** ACA ES LA PARTE DERECHA DEL HEADER ****************/
+
+.header-derecho{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    margin-right: 90px;
+    font-size: 19px;
+    
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+
+/**************** ACA VA LA PARTE DEL SECTION ****************/
+
+section{
+    flex: 1;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    gap: 55px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+      
+}
+
+.grid-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
+    
+}
+
+.productos-img{
+    height: 150px;
+    width: 150px;
+}
+
+button{
+    background-color: green;
+    color: whitesmoke;
+    border-radius: 5px;
+    height: 25px;
+    font-family: sans-serif;
+    padding: 2px 2px;
+}
+
+
+
+
+
+
+/**************** ACA VA LA PARTE DEL FOOTER ****************/
+
+footer{
+    background-color: grey;
+    text-align: center;
+    font-size: 15px;
+   
+    
+}
+

@@ -62,7 +62,9 @@ a{
     color: black;
 }
 
-
+a:hover{
+  color: yellow;
+}
 
 
 /**************** ACA VA LA PARTE DEL SECTION ****************/
@@ -126,6 +128,28 @@ form {
   }
 
 
+
+  /**************** RESPONSIVE DESIGN  ****************/
+
+@media (max-width:1400px){
+  header{
+      flex-direction: column;
+      gap: 10px;
+      display: flex;
+      justify-content: center;
+  }
+
+  .header-derecho{
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      margin-right: 90px;
+      font-size: 10px;
+      
+  }
+
+
+}
 
 /**************** ACA VA LA PARTE DEL FOOTER ****************/
 
